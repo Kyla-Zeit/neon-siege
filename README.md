@@ -62,10 +62,6 @@ dotnet restore
 dotnet run
 ```
 
-## Portfolio Value
-
-This project shows:
-
 - Real-time game loops in C#
 - Input handling for keyboard and mouse
 - Collision detection
