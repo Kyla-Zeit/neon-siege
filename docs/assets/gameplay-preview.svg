@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080a12"/>
+      <stop offset="1" stop-color="#121424"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#3cbfff" stroke-opacity=".14" stroke-width="1"/>
+    </pattern>
+    <filter id="g"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1200" height="675" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="20" fill="url(#grid)"/>
+
+  <g font-family="Segoe UI,Arial,sans-serif" fill="#fff">
+    <text x="24" y="34" font-size="18" font-weight="700">Score: 1460</text>
+    <text x="24" y="62" font-size="18" font-weight="700">Wave: 4</text>
+    <text x="24" y="90" font-size="18" font-weight="700">Time: 52.7s</text>
+    <text x="24" y="118" font-size="18" font-weight="700">Kills: 27</text>
+    <rect x="24" y="136" width="260" height="18" fill="#ffffff" opacity=".14"/>
+    <rect x="24" y="136" width="205" height="18" fill="#00ffaa"/>
+    <rect x="24" y="136" width="260" height="18" fill="none" stroke="#fff"/>
+    <text x="32" y="151" font-size="13" font-weight="700">HP 79/100</text>
+
+    <text x="930" y="34" font-size="17" font-weight="700" fill="#ffd700">Rapid Fire: 4.2s</text>
+    <text x="930" y="62" font-size="17" font-weight="700" fill="#ff69b4">Spread: +2 permanent</text>
+    <text x="930" y="90" font-size="17" font-weight="700" fill="#9370db">Pierce: OFF</text>
+    <text x="930" y="118" font-size="17" font-weight="700" fill="#00ffff">Dash: Ready</text>
+    <text x="930" y="146" font-size="17" font-weight="700" fill="#00ffff">Shield: 1</text>
+  </g>
+
+  <rect x="435" y="16" width="330" height="34" rx="8" fill="#000" opacity=".52"/>
+  <text x="600" y="40" text-anchor="middle" fill="#00ffff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Upgrade: permanent twin spread.</text>
+
+  <!-- player glow and body -->
+  <circle cx="600" cy="385" r="42" fill="#00ffff" opacity=".12" filter="url(#g)"/>
+  <circle cx="600" cy="385" r="22" fill="#00ffff"/>
+  <circle cx="600" cy="385" r="30" fill="none" stroke="#00ffff" stroke-width="3"/>
+  <line x1="600" y1="385" x2="632" y2="366" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- crosshair -->
+  <circle cx="800" cy="270" r="12" fill="none" stroke="#fff" stroke-width="2"/>
+  <line x1="782" y1="270" x2="791" y2="270" stroke="#fff" stroke-width="2"/>
+  <line x1="809" y1="270" x2="818" y2="270" stroke="#fff" stroke-width="2"/>
+  <line x1="800" y1="252" x2="800" y2="261" stroke="#fff" stroke-width="2"/>
+  <line x1="800" y1="279" x2="800" y2="288" stroke="#fff" stroke-width="2"/>
+
+  <!-- bullets -->
+  <g fill="#ffd700">
+    <circle cx="655" cy="350" r="6"/><circle cx="695" cy="326" r="6"/><circle cx="738" cy="303" r="6"/>
+    <circle cx="650" cy="366" r="5"/><circle cx="699" cy="354" r="5"/>
+  </g>
+
+  <!-- enemies -->
+  <g>
+    <circle cx="835" cy="240" r="25" fill="#ff69b4" opacity=".16" filter="url(#g)"/><circle cx="835" cy="240" r="17" fill="#ff69b4"/>
+    <circle cx="385" cy="280" r="38" fill="#ffa500" opacity=".15" filter="url(#g)"/><circle cx="385" cy="280" r="28" fill="#ffa500"/>
+    <rect x="360" y="238" width="50" height="6" fill="#fff" opacity=".25"/><rect x="360" y="238" width="33" height="6" fill="#ffa500"/>
+    <circle cx="300" cy="510" r="27" fill="#00ff7f" opacity=".15" filter="url(#g)"/><circle cx="300" cy="510" r="21" fill="#00ff7f"/>
+    <circle cx="930" cy="470" r="25" fill="#9370db" opacity=".18" filter="url(#g)"/><circle cx="930" cy="470" r="17" fill="#9370db"/>
+  </g>
+  <g fill="#fff"><circle cx="829" cy="236" r="2.5"/><circle cx="839" cy="236" r="2.5"/><circle cx="378" cy="274" r="3"/><circle cx="391" cy="274" r="3"/><circle cx="293" cy="505" r="2.5"/><circle cx="304" cy="505" r="2.5"/><circle cx="924" cy="465" r="2.5"/><circle cx="935" cy="465" r="2.5"/></g>
+
+  <!-- enemy bullets -->
+  <g fill="#9370db"><circle cx="865" cy="430" r="7"/><circle cx="820" cy="413" r="7"/></g>
+
+  <!-- power-up -->
+  <circle cx="510" cy="530" r="28" fill="#ff69b4" opacity=".09"/>
+  <circle cx="510" cy="530" r="16" fill="none" stroke="#ff69b4" stroke-width="3"/>
+  <text x="510" y="536" text-anchor="middle" fill="#ff69b4" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="800">S</text>
+
+  <text x="24" y="648" fill="#f5f7fa" font-family="Segoe UI,Arial,sans-serif" font-size="14">Power-ups: H heal, R rapid, B bomb, S spread, P pierce, C shield</text>
+</svg>
