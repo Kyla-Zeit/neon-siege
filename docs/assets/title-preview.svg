@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080a12"/>
+      <stop offset="1" stop-color="#121424"/>
+    </linearGradient>
+    <filter id="cyanGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#3cbfff" stroke-opacity=".14" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="20" fill="url(#grid)"/>
+  <circle cx="1030" cy="120" r="130" fill="#00ffff" opacity=".04"/>
+  <circle cx="150" cy="570" r="180" fill="#ff2a95" opacity=".035"/>
+
+  <text x="600" y="130" text-anchor="middle" fill="#00ffff" font-family="Segoe UI,Arial,sans-serif" font-size="64" font-weight="800" letter-spacing="6" filter="url(#cyanGlow)">NEON SIEGE</text>
+  <text x="600" y="172" text-anchor="middle" fill="#f5f7fa" font-family="Segoe UI,Arial,sans-serif" font-size="20">An actual little arcade shooter in C# and Windows Forms</text>
+
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#f5f7fa">
+    <text x="600" y="245" text-anchor="middle">WASD / Arrow Keys  - Move</text>
+    <text x="600" y="280" text-anchor="middle">Mouse              - Aim</text>
+    <text x="600" y="315" text-anchor="middle">Hold Left Click    - Shoot</text>
+    <text x="600" y="350" text-anchor="middle">Space              - Dash</text>
+    <text x="600" y="385" text-anchor="middle">P / Esc            - Pause</text>
+    <text x="600" y="420" text-anchor="middle">Enter              - Start</text>
+    <text x="600" y="475" text-anchor="middle">Tab / Left / Right - Change Difficulty</text>
+    <text x="600" y="510" text-anchor="middle">H                  - Toggle Screen Shake</text>
+  </g>
+
+  <text x="600" y="565" text-anchor="middle" fill="#ffd700" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="800">Difficulty: STANDARD</text>
+  <text x="600" y="605" text-anchor="middle" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="17">Best Score: 3400   Best Wave: 10   Best Time: 168.4s</text>
+  <text x="600" y="635" text-anchor="middle" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="16">Runs Played: 12</text>
+  <rect x="315" y="652" width="570" height="2" fill="#00ffff" opacity=".45"/>
+</svg>
