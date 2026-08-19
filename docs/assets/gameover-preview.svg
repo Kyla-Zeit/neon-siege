@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#080a12"/><stop offset="1" stop-color="#121424"/></linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#3cbfff" stroke-opacity=".12" stroke-width="1"/></pattern>
+    <filter id="pink"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <rect width="1200" height="675" rx="20" fill="url(#bg)"/><rect width="1200" height="675" rx="20" fill="url(#grid)"/>
+
+  <!-- frozen arena silhouettes -->
+  <g opacity=".28"><circle cx="250" cy="220" r="17" fill="#ff69b4"/><circle cx="920" cy="220" r="28" fill="#ffa500"/><circle cx="835" cy="490" r="21" fill="#00ff7f"/><circle cx="385" cy="500" r="17" fill="#9370db"/><circle cx="610" cy="520" r="22" fill="#00ffff"/></g>
+  <rect width="1200" height="675" rx="20" fill="#000" opacity=".66"/>
+
+  <text x="600" y="205" text-anchor="middle" fill="#ff69b4" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="800" letter-spacing="2" filter="url(#pink)">YOU GOT MULCHED</text>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+    <text x="600" y="300" fill="#fff">Final Score: 3820</text>
+    <text x="600" y="342" fill="#fff">Survived: 174.6 seconds</text>
+    <text x="600" y="384" fill="#fff">Wave Reached: 11</text>
+    <text x="600" y="426" fill="#ffd700">Best Score: 3820</text>
+    <text x="600" y="494" fill="#00ffff">Press R to restart</text>
+  </g>
+
+  <rect x="355" y="545" width="490" height="72" rx="12" fill="#10131f" stroke="#2d3548"/>
+  <text x="600" y="575" text-anchor="middle" fill="#f5f7fa" font-family="Segoe UI,Arial,sans-serif" font-size="15">Local JSON persistence tracks</text>
+  <text x="600" y="601" text-anchor="middle" fill="#b9c2d0" font-family="Segoe UI,Arial,sans-serif" font-size="15">best score • best wave • best survival time • runs played</text>
+</svg>
